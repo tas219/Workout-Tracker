@@ -10,24 +10,43 @@ module.exports = {
         black: '#000000',
         accent: '#F5C855',
         delete: '#C31F1C',
-        //light mode colours
-        bg1L: '#F1F2F4',
-        bg2L: '#F9EDC2',
-        bg3L: '#FFFFFF',
-        bg4L: '#F5C855',
-        detl1L: '#000000',
-        detl2L: '#FFFFFF',
-        text1L: '#000000',
-        footL: '#FFFFFF',
-        //dark mode colours
-        bg1D: '#444444',
-        bg2D: '#121212',
-        bg3D: '#B0B0B0',
-        bg4D: '#444444',
-        detl1D: '#F5C855',
-        detl2D: '#000000',
-        text1D: '#E0E0E0',
-        footD: '#444444',
+        //backgrounds:
+        primary: {
+          light: '#F1F2F4',
+          dark: '#444444'
+        },
+        secondary: {
+          light: '#F9EDC2',
+          dark: '#121212'
+        },
+        tertiary: {
+          light: '#FFFFFF',
+          dark: '#B0B0B0'
+        },
+        quinary: {
+          light: '#F5C855',
+          dark: '#444444'
+        },
+        footer: {
+          light: '#FFFFFF',
+          dark: '#444444'
+        },
+        //details:
+        detail: {
+          light: '#000000',
+          dark: '#F5C855'
+        },
+        detailInv: {
+          light: '#FFFFFF',
+          dark: '#000000'
+        },      
+        //text:  
+        primaryText: {
+          light: '#000000',
+          dark: '#E0E0E0'
+        },
+        
+
       },
       fontFamily:{
         plight: ["Poppins-Light", "sans-serif"],
